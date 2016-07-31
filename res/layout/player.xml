@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginTop="-3dp">
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+       android:layout_marginLeft="30dp"
+        android:text="懂球之声"
+        android:textSize="22sp"/>
+     
+      <ImageButton
+  
+  android:layout_height="25dp"  
+  android:layout_width="25dp"
+  android:background="@drawable/music1" 
+   android:layout_marginLeft="0dp"
+ 
+  />  
+     
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:orientation="horizontal" >
+      <ImageButton
+  android:id="@+id/StopImageButton" 
+  android:layout_height="25dp"  
+  android:layout_width="25dp"
+
+  android:background="@drawable/stop1" 
+ 
+   android:layout_marginLeft="20dp"
+  android:layout_marginTop="0dp"
+  />  
+  
+     <ImageButton 
+         android:id = "@+id/StartImageButtom"
+         android:layout_width="25dp"
+         android:layout_height = "25dp"
+       android:layout_marginLeft="20dp"
+       
+        android:background = "@drawable/play1"
+         />
+   
+     <ImageButton 
+         android:id = "@+id/PauseImageButtom"
+         android:layout_width="25dp"
+         android:layout_height = "25dp"
+        android:layout_marginLeft="20dp"
+       
+        android:background="@drawable/pause2"
+         />
+</LinearLayout>
+</LinearLayout>
+ <!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginTop="3dp">
+    
+    <TextView 
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="懂球之声"/>
+    
+    <LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+        
+      <ImageButton
+  android:id="@+id/StopImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@drawable/stop1" 
+ android:layout_marginLeft = "15dp"
+  android:layout_marginTop="3dp"
+  />  
+  
+     <ImageButton 
+         android:id = "@+id/StartImageButtom"
+         android:layout_width="wrap_content"
+         android:layout_height = "wrap_content"
+      android:layout_marginLeft = "15dp"
+       android:layout_marginTop="3dp"
+        android:background = "@drawable/play1"
+         />
+   
+     <ImageButton 
+         android:id = "@+id/PauseImageButtom"
+         android:layout_width="wrap_content"
+         android:layout_height = "wrap_content"
+       android:layout_marginLeft = "15dp"
+       android:layout_marginTop="3dp"
+        android:background="@drawable/pause2"
+         />
+</LinearLayout>
+</LinearLayout>
+ -->

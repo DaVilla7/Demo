@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:layout_gravity="start"
+     android:divider="@android:color/transparent"
+     android:choiceMode="singleChoice"
+        
+        android:dividerHeight="0dp">
+    
+    <LinearLayout
+        android:id="@+id/menu_top_layout"
+        android:layout_width = "match_parent"
+        android:layout_height = "180dp"
+        android:orientation = "vertical"
+        android:background = "@drawable/menu_top">
+        <TextView 
+            android:id="@+id/menu_top_text1"
+            android:layout_width="match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "加入懂球弟"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize = "18sp"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/menu_top_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="毅种循环，让足球不只是娱乐"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/menu_top_button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="立即登陆" 
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#000000"></RelativeLayout>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+       
+        android:background="#000000" >
+       <!-- android:divider="#FFFFFF"  
+        android:dividerHeight="0.5dp"  -->  
+    </ListView>
+
+</LinearLayout>
